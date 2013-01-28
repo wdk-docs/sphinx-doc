@@ -1,0 +1,27 @@
+<p class="logo">一个 <a href="http://pocoo.org/">
+  <img src="{{ pathto("_static/pocoo.png", 1) }}" /></a> 项目</a></p>
+
+<h3>下载</h3>
+{% if version.endswith('(hg)') %}
+<p>这是版本 <b>{{ version }}</b>的文档, 还没有发布.</p>
+<p>你可以使用它，从
+  <a href="http://bitbucket.org/birkenfeld/sphinx/">Mercurial repo</a> 或<a href="http://pypi.python.org/pypi/Sphinx">Python包索引</a>查看发行版.</p>
+{% else %}
+<p>当前版本: <b>{{ version }}</b></p>
+<p>从<a href="http://pypi.python.org/pypi/Sphinx">Python Package
+Index</a>获取Sphinx, 或者用一下命令安装:</p>
+<pre>easy_install -U Sphinx</pre>
+<p>最新<a href="http://sphinx-doc.org/latest/">开发版文档</a>同样可用.</p>
+{% endif %}
+
+<h3>问题?  建议?</h3>
+
+<p>加入<a href="http://groups.google.com/group/sphinx-users">Google群组</a>:</p>
+<form action="http://groups.google.com/group/sphinx-users/boxsubscribe"
+      style="padding-left: 0.5em">
+  <input type="text" name="email" value="your@email" style="font-size: 90%; width: 120px"
+         onfocus="$(this).val('');"/>
+  <input type="submit" name="sub" value="Subscribe" style="font-size: 90%; width: 70px"/>
+</form>
+<p>或者使用FreeNode讨论频道<tt>#pocoo</tt>.</p>
+<p> 你也可以在<a href="http://www.bitbucket.org/birkenfeld/sphinx/issues/">追踪轨迹</a>上打开一个问题.</p>

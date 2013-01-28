@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+{% set title = 'Overview' %}
+{% block body %}
+  <h1>欢迎</h1>
+
+  <div class="quotebar">
+    <p><em>使用者曰:</em></p>
+    <p>&ldquo;Cheers for a great tool that actually makes programmers <b>want</b>
+      to write documentation!&rdquo;</p>
+  </div>
+
+  <p>
+    Sphinx is a tool that makes it easy to create intelligent and beautiful
+    documentation, written by Georg Brandl and licensed under the BSD license.</p>
+  <p>It was originally created for <a href="http://docs.python.org/">the
+    new Python documentation</a>, and it has excellent facilities for the
+    documentation of Python projects, but C/C++ is already supported as well,
+    and it is planned to add special support for other languages as well.  Of
+    course, this site is also created from reStructuredText sources using
+    Sphinx!  The following features should be highlighted:
+  </p>
+  <ul>
+    <li><b>输出格式:</b> HTML (including Windows HTML Help), LaTeX (for
+      printable PDF versions), Texinfo, manual pages, plain text</li>
+    <li><b>交叉引用:</b> semantic markup and automatic links
+      for functions, classes, citations, glossary terms and similar pieces of
+      information</li>
+    <li><b>分层架构:</b> easy definition of a document tree, with
+      automatic links to siblings, parents and children</li>
+    <li><b>自动索引:</b> general index as well as a language-specific
+      module indices</li>
+    <li><b>代码操作:</b> automatic highlighting using the <a
+      href="http://pygments.org">Pygments</a> highlighter</li>
+    <li><b>扩展应用:</b> automatic testing of code snippets, inclusion of
+      docstrings from Python modules (API docs), and
+      <a href="{{ pathto('ext') }}">more</a></li>
+  </ul>
+  <p>
+    Sphinx uses <a href="http://docutils.sf.net/rst.html">reStructuredText</a>
+    as its markup language, and many of its strengths come from the power and
+    straightforwardness of reStructuredText and its parsing and translating
+    suite, the <a href="http://docutils.sf.net/">Docutils</a>.
+  </p>
+
+  <h2 style="margin-bottom: 0">文档</h2>
+
+  <table class="contentstable" align="center" style="margin-left: 30px"><tr>
+    <td width="50%">
+      <p class="biglink"><a class="biglink" href="{{ pathto("tutorial") }}">第一次</a><br/>
+         <span class="linkdescr">overview of basic tasks</span></p>
+      <p class="biglink"><a class="biglink" href="{{ pathto("contents") }}">内容</a><br/>
+         <span class="linkdescr">for a complete overview</span></p>
+    </td><td width="50%">
+      <p class="biglink"><a class="biglink" href="{{ pathto("search") }}">搜索</a><br/>
+         <span class="linkdescr">search the documentation</span></p>
+      <p class="biglink"><a class="biglink" href="{{ pathto("genindex") }}">索引</a><br/>
+         <span class="linkdescr">all functions, classes, terms</span></p>
+    </td></tr>
+  </table>
+
+  <p>
+    You can also download PDF versions of the Sphinx documentation:
+    a <a href="http://sphinx-doc.org/sphinx.pdf">version</a> generated from
+    the LaTeX Sphinx produces, and
+    a <a href="http://sphinx-doc.org/sphinx-rst2pdf.pdf">version</a> generated
+    by rst2pdf.
+  </p>
+
+  <h2>实例</h2>
+  <p>Links to documentation generated with Sphinx can be found on the
+    <a href="{{ pathto("examples") }}">Projects using Sphinx</a> page.
+  </p>
+  <p>
+    For examples of how Sphinx source files look, use the &#8220;Show
+    source&#8221; links on all pages of the documentation apart from this
+    welcome page.
+  </p>
+
+  <p>You may also be interested in the very nice
+    <a href="http://matplotlib.sourceforge.net/sampledoc/">tutorial</a> on how to
+    create a customized documentation using Sphinx written by the matplotlib
+    developers.</p>
+
+  <p>There is a <a href="http://sphinx-users.jp/doc10/">Japanese translation</a>
+    of this documentation, thanks to Yoshiki Shibukawa.</p>
+
+{% endblock %}
