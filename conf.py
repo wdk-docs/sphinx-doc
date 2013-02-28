@@ -18,6 +18,8 @@ version = sphinx.__released__
 release = version
 show_authors = True
 
+language = 'zh'
+
 html_theme = 'sphinx13'
 html_theme_path = ['_themes']
 modindex_common_prefix = ['sphinx.']
