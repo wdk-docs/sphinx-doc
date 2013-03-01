@@ -11,7 +11,7 @@ Sphinx文档内容
    invocation
    rest
    markup/index
-   domains
+   domains/index
    builders
    config
    intl
