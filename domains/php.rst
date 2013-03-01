@@ -1,13 +1,10 @@
 .. php-domain:
 
 PHP域
----------------
-
-The PHP domain provides the following directives. 
-Most directives are similar to Python's.
+======
 
 关于
-^^^^^^^
+-----
 
 一个为 ''sphinx >= 1.0'' 提供PHP语言支持的域
 
@@ -46,7 +43,10 @@ PHP域支持一下对象:
 
 
 安装
-^^^^^^
+-----
+
+本地安装:
+^^^^^^^^^^
 
 .. code-block:: bash
 
@@ -64,8 +64,46 @@ PHP域支持一下对象:
  #设置默认域
  primary_domain = 'php'
 
+ReadTheDocs安装
+^^^^^^^^^^^^^^^^
+
+下载
+
++----------------------------------------------------+--------+------------+-------------+------+
+| File                                               | Type   | Py Version | Uploaded on | Size |
++====================================================+========+============+=============+======+
+| `sphinxcontrib-phpdomain-0.1.4.tar.gz`_ ( `md5`_ ) | Source |            | 2012-11-03  | 8KB  |
++----------------------------------------------------+--------+------------+-------------+------+
+
+.. _sphinxcontrib-phpdomain-0.1.4.tar.gz: https://pypi.python.org/packages/source/s/sphinxcontrib-phpdomain/sphinxcontrib-phpdomain-0.1.4.tar.gz#md5=03ce0f0569db0217f7471c2f7e952841
+
+.. _md5: https://pypi.python.org/pypi?:action=show_md5&digest=03ce0f0569db0217f7471c2f7e952841
+
+.. code-block:: bash
+
+ #cd docs/
+ #mkdir _exts
+ #vim conf.py
+
+.. code-block:: python
+
+ #引入os
+ import sys, os
+
+ #设置扩展路径
+ sys.path.append(os.path.abspath('_exts'))
+
+ #添加扩展
+ extensions = [
+    ...
+    'phpdomain',
+ ]
+
+ #设置默认域
+ primary_domain = 'php'
+
 实例
-^^^^^^^
+-----
 
 源码如下:
 
@@ -138,7 +176,9 @@ PHP域支持一下对象:
 你可以使用  :php:meth:`DateTime::setDate` 修改 ``DateTime`` 的日期。
 
 指令
-^^^^^^^^^^^^^^^^
+-----
+
+PHP域提供以下指令，大部分指令跟Python类似。
 
 每个指令填充索引，或命名空间索引。
 
@@ -234,7 +274,7 @@ PHP域支持一下对象:
    Describe an property/attribute on a class.
 
 交叉引用
-^^^^^^^^^^^^^^^^^^^^^^^^^
+---------
 
 以下角色，引用PHP的对象，如果找到匹配指令将生成链接:
 

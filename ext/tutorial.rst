@@ -1,6 +1,6 @@
 .. _exttut:
 
-Tutorial: Writing a simple extension
+教程: 写一个简单的扩展
 ====================================
 
 This section is intended as a walkthrough for the creation of custom extensions.
@@ -12,20 +12,20 @@ include todo entries in the documentation, and collecting these in a central
 place.  (A similar "todo" extension is distributed with Sphinx.)
 
 
-Build Phases
+构建阶段
 ------------
 
 One thing that is vital in order to understand extension mechanisms is the way
 in which a Sphinx project is built: this works in several phases.
 
-**Phase 0: Initialization**
+**阶段 0: 初始化**
 
    In this phase, almost nothing interesting for us happens.  The source
    directory is searched for source files, and extensions are initialized.
    Should a stored build environment exist, it is loaded, otherwise a new one is
    created.
 
-**Phase 1: Reading**
+**阶段 1: 读**
 
    In Phase 1, all source files (and on subsequent builds, those that are new or
    changed) are read and parsed.  This is the phase where directives and roles
@@ -42,18 +42,18 @@ in which a Sphinx project is built: this works in several phases.
    The parsed doctrees are stored on the disk, because it is not possible to
    hold all of them in memory.
 
-**Phase 2: Consistency checks**
+**阶段 2: 一致性检查**
 
    Some checking is done to ensure no surprises in the built documents.
 
-**Phase 3: Resolving**
+**阶段 3: 解决**
 
    Now that the metadata and cross-reference data of all existing documents is
    known, all temporary nodes are replaced by nodes that can be converted into
    output.  For example, links are created for object references that exist, and
    simple literal nodes are created for those that don't.
 
-**Phase 4: Writing**
+**阶段 4: 写**
 
    This phase converts the resolved doctrees to the desired output format, such
    as HTML or LaTeX.  This happens via a so-called docutils writer that visits
@@ -66,7 +66,7 @@ in which a Sphinx project is built: this works in several phases.
    doctrees and therefore does not have phases 2--4.
 
 
-Extension Design
+扩展设计
 ----------------
 
 We want the extension to add the following to Sphinx:
@@ -92,7 +92,7 @@ For that, we will need to add the following elements to Sphinx:
   for that will be covered later).
 
 
-The Setup Function
+设置函数
 ------------------
 
 .. currentmodule:: sphinx.application
@@ -141,7 +141,7 @@ the individual calls do is the following:
   with several arguments which are documented with the event.
 
 
-The Node Classes
+节点类
 ----------------
 
 Let's start with the node classes::
@@ -166,7 +166,7 @@ docutils classes defined in :mod:`docutils.nodes`.  ``todo`` inherits from
 is just a "general" node.
 
 
-The Directive Classes
+指令类
 ---------------------
 
 A directive class is a class deriving usually from
@@ -264,7 +264,7 @@ The node structure that the directive returns looks like this::
         +--------------------+
 
 
-The Event Handlers
+事件处理
 ------------------
 
 Finally, let's look at the event handlers.  First, the one for the

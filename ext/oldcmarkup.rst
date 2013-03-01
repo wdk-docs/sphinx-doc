@@ -1,4 +1,4 @@
-:mod:`sphinx.ext.oldcmarkup` -- Compatibility extension for old C markup
+:mod:`sphinx.ext.oldcmarkup` -- 旧的C标记的兼容性扩展
 ========================================================================
 
 .. module:: sphinx.ext.oldcmarkup

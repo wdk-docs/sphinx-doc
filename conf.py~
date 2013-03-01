@@ -4,9 +4,13 @@
 
 import re
 import sphinx
+import sys, os
 
+sys.path.append(os.path.abspath('_exts'))
+
+#,'sphinxcontrib.phpdomain'
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.todo',
-              'sphinx.ext.autosummary', 'sphinx.ext.extlinks']
+              'sphinx.ext.autosummary', 'sphinx.ext.extlinks','phpdomain']
 
 master_doc = 'contents'
 templates_path = ['_templates']
@@ -17,6 +21,8 @@ copyright = '2007-2013, Georg Brandl'
 version = sphinx.__released__
 release = version
 show_authors = True
+
+language = 'zh'
 
 html_theme = 'sphinx13'
 html_theme_path = ['_themes']

@@ -1,4 +1,4 @@
-:mod:`sphinx.ext.todo` -- Support for todo items
+:mod:`sphinx.ext.todo` -- 支持待办事项
 ================================================
 
 .. module:: sphinx.ext.todo

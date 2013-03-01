@@ -1,4 +1,4 @@
-:mod:`sphinx.ext.linkcode` -- Add external links to source code
+:mod:`sphinx.ext.linkcode` -- 添加源代码的外部链接
 ===============================================================
 
 .. module:: sphinx.ext.linkcode

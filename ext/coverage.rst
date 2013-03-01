@@ -1,4 +1,4 @@
-:mod:`sphinx.ext.coverage` -- Collect doc coverage stats
+:mod:`sphinx.ext.coverage` -- 收藏文档覆盖统计
 ========================================================
 
 .. module:: sphinx.ext.coverage

@@ -4,10 +4,12 @@
 
 import re
 import sphinx
+import sys, os
 
-#,'sphinxcontrib.phpdomain'
+sys.path.append(os.path.abspath('_exts'))
+
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.todo',
-              'sphinx.ext.autosummary', 'sphinx.ext.extlinks']
+              'sphinx.ext.autosummary', 'sphinx.ext.extlinks','phpdomain']
 
 master_doc = 'contents'
 templates_path = ['_templates']

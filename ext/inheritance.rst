@@ -1,6 +1,6 @@
 .. highlight:: rest
 
-:mod:`sphinx.ext.inheritance_diagram` -- Include inheritance diagrams
+:mod:`sphinx.ext.inheritance_diagram` -- 包含继承图
 =====================================================================
 
 .. module:: sphinx.ext.inheritance_diagram

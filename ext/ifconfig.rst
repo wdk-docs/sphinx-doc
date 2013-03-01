@@ -1,6 +1,6 @@
 .. highlight:: rest
 
-:mod:`sphinx.ext.ifconfig` -- Include content based on configuration
+:mod:`sphinx.ext.ifconfig` -- 包含基于配置的内容
 ====================================================================
 
 .. module:: sphinx.ext.ifconfig

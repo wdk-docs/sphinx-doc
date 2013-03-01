@@ -1,6 +1,6 @@
 .. highlight:: rest
 
-:mod:`sphinx.ext.doctest` -- Test snippets in the documentation
+:mod:`sphinx.ext.doctest` -- 测试文档中的片段
 ===============================================================
 
 .. module:: sphinx.ext.doctest

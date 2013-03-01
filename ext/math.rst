@@ -1,6 +1,6 @@
 .. highlight:: rest
 
-Math support in Sphinx
+Sphinx的数学支持
 ======================
 
 .. module:: sphinx.ext.mathbase

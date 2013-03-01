@@ -1,6 +1,6 @@
 .. highlight:: rest
 
-:mod:`sphinx.ext.graphviz` -- Add Graphviz graphs
+:mod:`sphinx.ext.graphviz` -- 添加Graphviz图形
 =================================================
 
 .. module:: sphinx.ext.graphviz

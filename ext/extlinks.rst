@@ -1,4 +1,4 @@
-:mod:`sphinx.ext.extlinks` -- Markup to shorten external links
+:mod:`sphinx.ext.extlinks` -- 标记，以缩短外部链接
 ==============================================================
 
 .. module:: sphinx.ext.extlinks

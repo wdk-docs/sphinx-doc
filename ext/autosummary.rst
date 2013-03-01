@@ -1,6 +1,6 @@
 .. highlight:: rest
 
-:mod:`sphinx.ext.autosummary` -- Generate autodoc summaries
+:mod:`sphinx.ext.autosummary` -- 生成autodoc摘要
 ===========================================================
 
 .. module:: sphinx.ext.autosummary

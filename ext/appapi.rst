@@ -1,6 +1,6 @@
 .. highlight:: rest
 
-Extension API
+扩展接口
 =============
 
 .. currentmodule:: sphinx.application
@@ -163,7 +163,7 @@ the following public API:
 .. method:: Sphinx.add_object_type(directivename, rolename, indextemplate='', parse_node=None, \
                                    ref_nodeclass=None, objname='', doc_field_types=[])
 
-   This method is a very convenient way to add a new :term:`object` type that
+   This method is a very convenient way to add a new :term:`项目` type that
    can be cross-referenced.  It will do this:
 
    * Create a new directive (called *directivename*) for documenting an object.
@@ -339,7 +339,7 @@ package.
 
 .. _events:
 
-Sphinx core events
+Sphinx核心事件
 ------------------
 
 These events are known to the core.  The arguments shown are given to the
@@ -464,7 +464,7 @@ registered event handlers.
 
 .. _template-bridge:
 
-The template bridge
+模板桥
 -------------------
 
 .. autoclass:: TemplateBridge
@@ -473,7 +473,7 @@ The template bridge
 
 .. _domain-api:
 
-Domain API
+域接口
 ----------
 
 .. module:: sphinx.domains

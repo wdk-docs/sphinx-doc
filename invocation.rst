@@ -8,7 +8,7 @@ called like this::
 
      $ sphinx-build [options] sourcedir builddir [filenames]
 
-where *sourcedir* is the :term:`source directory`, and *builddir* is the
+where *sourcedir* is the :term:`资源目录`, and *builddir* is the
 directory in which you want to place the built documentation.  Most of the time,
 you don't need to specify any *filenames*.
 
@@ -77,7 +77,7 @@ The :program:`sphinx-build` script has several options:
 
 .. option:: -E
 
-   Don't use a saved :term:`environment` (the structure caching all
+   Don't use a saved :term:`环境` (the structure caching all
    cross-references), but rebuild it completely.  The default is to only read
    and parse source files that are new or have changed since the last run.
 

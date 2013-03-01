@@ -138,7 +138,7 @@ tables of contents.  The ``toctree`` directive is the central element.
 
    All other toctree entries can then be eliminated by the "hidden" option.
 
-   In the end, all documents in the :term:`source directory` (or subdirectories)
+   In the end, all documents in the :term:`资源目录` (or subdirectories)
    must occur in some ``toctree`` directive; Sphinx will emit a warning if it
    finds a file that is not included, because that means that this file will not
    be reachable through standard navigation.  Use :confval:`unused_docs` to

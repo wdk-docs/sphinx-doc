@@ -91,7 +91,7 @@ Sphinx.
 
    $ sphinx-build -b html sourcedir builddir
 
-*sourcedir*是 :term:`资源目录`, *builddir*存放创建文档的地方.  :option:`-b`
+*sourcedir* 是 :term:`资源目录`, *builddir* 存放创建文档的地方. :option:`-b`
 选项是选择一个创建器; 本例是创建html文件.
 
 |more| 查看更多 :ref:`invocation` for all options that :program:`sphinx-build`

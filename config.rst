@@ -8,7 +8,7 @@
 .. module:: conf
    :synopsis: Build configuration file.
 
-The :term:`configuration directory` must contain a file named :file:`conf.py`.
+The :term:`配置目录` must contain a file named :file:`conf.py`.
 This file (containing Python code) is called the "build configuration file" and
 contains all configuration needed to customize Sphinx input and output behavior.
 
@@ -56,7 +56,7 @@ Important points to note:
 
    Note that you can extend :data:`sys.path` within the conf file if your
    extensions live in another directory -- but make sure you use absolute paths.
-   If your extension path is relative to the :term:`configuration directory`,
+   If your extension path is relative to the :term:`配置目录`,
    use :func:`os.path.abspath` like so::
 
       import sys, os
@@ -147,7 +147,7 @@ Important points to note:
 
    A list of paths that contain extra templates (or templates that overwrite
    builtin/theme-specific templates).  Relative paths are taken as relative to
-   the configuration directory.
+   the 配置目录.
 
 .. confval:: template_bridge
 
@@ -306,7 +306,7 @@ Important points to note:
 .. confval:: add_module_names
 
    A boolean that decides whether module names are prepended to all
-   :term:`object` names (for object types where a "module" of some kind is
+   :term:`项目` names (for object types where a "module" of some kind is
    defined), e.g. for :rst:dir:`py:function` directives.  Default is ``True``.
 
 .. confval:: show_authors
@@ -762,7 +762,7 @@ that use Sphinx' HTMLWriter class.
 
 .. confval:: html_search_scorer
 
-   The name of a javascript file (relative to the configuration directory) that
+   The name of a javascript file (relative to the 配置目录) that
    implements a search results scorer.  If empty, the default will be used.
 
    .. XXX describe interface for scorer here
@@ -978,7 +978,7 @@ These options influence LaTeX output.
 .. confval:: latex_logo
 
    If given, this must be the name of an image file (relative to the
-   configuration directory) that is the logo of the docs.  It is placed at the
+   配置目录) that is the logo of the docs.  It is placed at the
    top of the title page.  Default: ``None``.
 
 .. confval:: latex_use_parts
@@ -1110,7 +1110,7 @@ These options influence LaTeX output.
 
 .. confval:: latex_additional_files
 
-   A list of file names, relative to the configuration directory, to copy to the
+   A list of file names, relative to the 配置目录, to copy to the
    build directory when building LaTeX output.  This is useful to copy files
    that Sphinx doesn't copy automatically, e.g. if they are referenced in custom
    LaTeX added in ``latex_elements``.  Image files that are referenced in source

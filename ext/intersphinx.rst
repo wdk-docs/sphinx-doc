@@ -1,4 +1,4 @@
-:mod:`sphinx.ext.intersphinx` -- Link to other projects' documentation
+:mod:`sphinx.ext.intersphinx` -- 链接其他项目文档
 ======================================================================
 
 .. module:: sphinx.ext.intersphinx

@@ -14,8 +14,8 @@ documentation of projects using different programming languages or even ones not
 supported by the main Sphinx distribution, by providing a **domain** for every
 such purpose.
 
-A domain is a collection of markup (reStructuredText :term:`directive`\ s and
-:term:`role`\ s) to describe and link to :term:`object`\ s belonging together,
+A domain is a collection of markup (reStructuredText :term:`指令`\ s and
+:term:`角色`\ s) to describe and link to :term:`项目`\ s belonging together,
 e.g. elements of a programming language.  Directive and role names in a domain
 have names like ``domain:name``, e.g. ``py:function``.  Domains can also provide
 custom indices (like the Python Module Index).

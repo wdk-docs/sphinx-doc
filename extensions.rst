@@ -10,7 +10,7 @@ Since many projects will need special features in their documentation, Sphinx is
 designed to be extensible on several levels.
 
 This is what you can do in an extension: First, you can add new
-:term:`builder`\s to support new output formats or actions on the parsed
+:term:`创建器`\s to support new output formats or actions on the parsed
 documents.  Then, it is possible to register custom reStructuredText roles and
 directives, extending the markup.  And finally, there are so-called "hook
 points" at strategic places throughout the build process, where an extension can
@@ -75,7 +75,7 @@ list (`join here <http://groups.google.com/group/sphinx-dev>`_).
 .. _Sphinx Contrib: https://www.bitbucket.org/birkenfeld/sphinx-contrib
 
 
-在哪放你自己的扩展?
+如何放置你的扩展?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Extensions local to a project should be put within the project's directory

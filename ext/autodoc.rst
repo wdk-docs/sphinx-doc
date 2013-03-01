@@ -1,6 +1,6 @@
 .. highlight:: rest
 
-:mod:`sphinx.ext.autodoc` -- Include documentation from docstrings
+:mod:`sphinx.ext.autodoc` -- 从文档字符串包含文件
 ==================================================================
 
 .. module:: sphinx.ext.autodoc

@@ -1,4 +1,4 @@
-:mod:`sphinx.ext.refcounting` -- Keep track of reference counting behavior
+:mod:`sphinx.ext.refcounting` -- 跟踪引用计数行为
 ==========================================================================
 
 .. module:: sphinx.ext.refcounting

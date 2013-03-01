@@ -1,4 +1,4 @@
-:mod:`sphinx.ext.viewcode` -- Add links to highlighted source code
+:mod:`sphinx.ext.viewcode` -- 给高亮显示的源代码添加链接
 ==================================================================
 
 .. module:: sphinx.ext.viewcode
