@@ -83,6 +83,7 @@ ReadTheDocs安装
 
  #cd docs/
  #mkdir _exts
+ #cp path/sphinxcontrib-phpdomain-0.1.4/sphinxcontrib/phpdomain.py ./_exts
  #vim conf.py
 
 .. code-block:: python
