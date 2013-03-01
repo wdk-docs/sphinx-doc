@@ -5,8 +5,9 @@
 import re
 import sphinx
 
+#,'sphinxcontrib.phpdomain'
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.todo',
-              'sphinx.ext.autosummary', 'sphinx.ext.extlinks','sphinxcontrib.phpdomain']
+              'sphinx.ext.autosummary', 'sphinx.ext.extlinks']
 
 master_doc = 'contents'
 templates_path = ['_templates']
