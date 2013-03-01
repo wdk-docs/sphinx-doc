@@ -8,27 +8,29 @@ PHP域
 
 一个为 ''sphinx >= 1.0'' 提供PHP语言支持的域
 
-项目地址：
+:作者: Mark Story
+:文档: `sphinxcontrib-phpdomain package documentation <http://packages.python.org/sphinxcontrib-phpdomain>`_
+:主页: http://bitbucket.org/markstory/sphinx-contrib
+:下载: http://pypi.python.org/pypi/sphinxcontrib-phpdomain
+:许可: BSD
+:平台: 任何平台
 
-:PyPI: http://pypi.python.org/pypi/sphinxcontrib-phpdomain
-:详细文档: http://packages.python.org/sphinxcontrib-phpdomain
+PHP域支持以下对象:
 
-PHP域支持一下对象:
+* 全局变量(global)
+* 全局函数(function)
+* 常量(constant)
+* 名称空间(namespace)
 
-* Global variable
-* Global function
-* Constant
-* Namespace
+  * 函数(Function)
+  * 类(Class)
 
-  * Function
-  * Class
+* 类(Class)
 
-* Class
-
-  * Class constant
-  * Instance methods
-  * Static methods
-  * Properties
+  * 类常量(Class constant)
+  * 实例方法(Instance methods)
+  * 静态方法(Static methods)
+  * 属性(Properties)
 
 .. note::
 
@@ -37,7 +39,7 @@ PHP域支持一下对象:
       Class::method_name
       Class::$attribute_name
 
-   You address classes/functions in namespaces using \\ syntax as you would in PHP::
+   在PHP中使用 ``\`` 语法访问命名空间中的类/函数::
 
         Package\Subpackage\Class
 
@@ -185,8 +187,8 @@ PHP域提供以下指令，大部分指令跟Python类似。
 
 .. rst:directive:: .. php:namespace:: name
 
-   这个指令声明一个新的PHP名称空间。  It accepts nested
-   namespaces by separating namespaces with ``\``.  It does not generate
+   该指令声明一个新的PHP名称空间。  It accepts nested
+   namespaces by separating namespaces with ``\\``.  It does not generate
    any content like :rst:dir:`php:class` does.  It will however, generate 
    an entry in the namespace/module index.
    
@@ -194,7 +196,7 @@ PHP域提供以下指令，大部分指令跟Python类似。
   
 .. rst:directive:: .. php:global:: name
 
-   This directive declares a new PHP global variable.
+   该指令声明一个PHP全局变量.
 
 .. rst:directive:: .. php:function:: name(signature)
 
@@ -204,75 +206,72 @@ PHP域提供以下指令，大部分指令跟Python类似。
 
 .. rst:directive:: .. php:const:: name
 
-   This directive declares a new PHP constant, you can also used it nested 
+   该指令声明一个PHP全局常量, you can also used it nested 
    inside a class directive to create class constants.
    
 .. rst:directive:: .. php:exception:: name
 
-   This directive declares a new Exception in the current namespace. The 
+   该指令在当前名称空间中声明一个新的异常. The 
    signature can include constructor arguments.
 
 .. rst:directive:: .. php:interface:: name
 
-   Describe an interface.  Methods and constants belonging to the interface 
+   描述接口.  Methods and constants belonging to the interface 
    should follow or be nested inside this directive.
 
 .. rst:directive:: .. php:trait:: name
 
-   Describe a trait.  Methods beloning to the trait should follow or be nested
+   描述一个特征.  Methods beloning to the trait should follow or be nested
    inside this directive.
 
 .. rst:directive:: .. php:class:: name
 
-   Describes a class.  Methods, attributes, and constants belonging to the class
-   should be inside this directive's body::
+   描述一个类.  Methods, attributes, and constants belonging to the class
+   should be inside this directive's body:
+
+.. code-block:: rest
 
         .. php:class:: MyClass
-        
             Class description
-        
            .. php:method:: method($argument)
-        
            Method description
 
+Attributes, methods and constants don't need to be nested.  They can also just follow the class declaration:
 
-   Attributes, methods and constants don't need to be nested.  They can also just 
-   follow the class declaration::
+.. code-block:: rest
 
         .. php:class:: MyClass
-        
             Text about the class
-        
         .. php:method:: methodName()
-        
             Text about the method
-        
 
-   .. seealso:: .. php:method:: name
-                .. php:attr:: name
-                .. php:const:: name
+.. seealso:: .. php:method:: name
+             .. php:attr:: name
+             .. php:const:: name
 
 .. rst:directive:: .. php:method:: name(signature)
 
-   Describe a class method, its arguments, return value, and exceptions::
-   
+   描述一个类的方法, its arguments, return value, and exceptions:
+
+.. code-block:: rest
+
         .. php:method:: instanceMethod($one, $two)
-        
+
             :param string $one: The first parameter.
             :param string $two: The second parameter.
             :returns: An array of stuff.
             :throws: InvalidArgumentException
-        
-           This is an instance method.
+
+            This is an instance method.
 
 .. rst:directive:: .. php:staticmethod:: ClassName::methodName(signature)
 
-    Describe a static method, its arguments, return value and exceptions,
+    描述一个静态方法, its arguments, return value and exceptions,
     see :rst:dir:`php:method` for options.
 
 .. rst:directive:: .. php:attr:: name
 
-   Describe an property/attribute on a class.
+   描述一个类的属性/特质.
 
 交叉引用
 ---------
