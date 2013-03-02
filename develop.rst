@@ -5,9 +5,9 @@ Sphinx开发
 
 Sphinx是一组志愿者维护的。我们珍惜每个贡献！
 
-* 代码可以在 Mercurial 仓库找到, 在 http://bitbucket.org/birkenfeld/sphinx/.
+* 可以在 `Mercurial <http://bitbucket.org/birkenfeld/sphinx/>`_ 仓库中找到代码.
 * 在 `追踪系统 <http://bitbucket.org/birkenfeld/sphinx/issues/>`_ 中提问和功能申请
-* 开发邮件列表 `Google Groups <http://groups.google.com/group/sphinx-dev/>`_.
+* 开发邮件列表 `Google 组 <http://groups.google.com/group/sphinx-dev/>`_.
 
 欲了解更多关于我们的开发过程和方法, 查看 :doc:`devguide`.
 
