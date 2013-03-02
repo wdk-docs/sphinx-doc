@@ -3,18 +3,17 @@
 安装Sphinx
 ==================
 
-Sphinx is written by Python, you need to install Python and Sphinx.
+Sphinx是用Python写的, 你需要安装Python和Sphinx.
 
-Sphinx package is available as a package on the `Python Package Index
-<http://pypi.python.org/pypi/Sphinx>`_.
+在 `Python包索引 <http://pypi.python.org/pypi/Sphinx>`_ 中 Sphinx包是一个可用包.
 
-You can also download a snapshot from the Mercurial development repository:
+从水银的开发库，您也可以下载一个快照:
 
-* as a `.tar.bz2 <https://bitbucket.org/birkenfeld/sphinx/get/default.tar.bz2>`_
-  file or
-* as a `.zip <https://bitbucket.org/birkenfeld/sphinx/get/default.zip>`_ file
+* 作为一个 `.tar.bz2 <https://bitbucket.org/birkenfeld/sphinx/get/default.tar.bz2>`_
+  文件或者
+* 作为一个 `.zip <https://bitbucket.org/birkenfeld/sphinx/get/default.zip>`_ 文件
 
-There is introductions for each environments:
+各种环境的介绍:
 
 .. contents::
    :depth: 1
