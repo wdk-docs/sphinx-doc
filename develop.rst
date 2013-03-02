@@ -3,78 +3,69 @@
 Sphinx开发
 ==================
 
-Sphinx is a maintained by a group of volunteers.  We value every contribution!
+Sphinx是一组志愿者维护的。我们珍惜每个贡献！
 
-* The code can be found in a Mercurial repository, at
-  http://bitbucket.org/birkenfeld/sphinx/.
-* Issues and feature requests should be raised in the `tracker
-  <http://bitbucket.org/birkenfeld/sphinx/issues/>`_.
-* The mailing list for development is at `Google Groups
-  <http://groups.google.com/group/sphinx-dev/>`_.
+* 代码可以在 Mercurial 仓库找到, 在 http://bitbucket.org/birkenfeld/sphinx/.
+* 在 `追踪系统 <http://bitbucket.org/birkenfeld/sphinx/issues/>`_ 中提问和功能申请
+* 开发邮件列表 `Google Groups <http://groups.google.com/group/sphinx-dev/>`_.
 
-For more about our development process and methods, see the :doc:`devguide`.
+欲了解更多关于我们的开发过程和方法, 查看 :doc:`devguide`.
+
 
 扩展
 ==========
 
-The `sphinx-contrib <http://bitbucket.org/birkenfeld/sphinx-contrib/>`_
-repository contains many contributed extensions.  Some of them have their own
-releases on PyPI, others you can install from a checkout.
+`sphinx-contrib <http://bitbucket.org/birkenfeld/sphinx-contrib/>`_ 
+库包含了许多贡献的扩展.  它们中的一些在PyPI上有发布版本, 其它你可以检出再安装.
 
-This is the current list of contributed extensions in that repository:
+下面是仓库中当前贡献的扩展列表:
 
-- aafig: render embeded ASCII art as nice images using aafigure_.
-- actdiag: embed activity diagrams by using actdiag_
-- adadomain: an extension for Ada support (Sphinx 1.0 needed)
-- ansi: parse ANSI color sequences inside documents
-- autorun: Execute code in a runblock directive.
-- blockdiag: embed block diagrams by using blockdiag_
-- cheeseshop: easily link to PyPI packages
-- clearquest: create tables from ClearQuest_ queries.
-- coffeedomain: a domain for (auto)documenting CoffeeScript source code.
-- context: a builder for ConTeXt.
-- doxylink: Link to external Doxygen-generated HTML documentation
-- email: obfuscate email addresses
-- erlangdomain: an extension for Erlang support (Sphinx 1.0 needed)
-- exceltable: embed Excel spreadsheets into documents using exceltable_
-- feed: an extension for creating syndication feeds and time-based overviews
-  from your site content
-- gnuplot: produces images using gnuplot_ language.
-- googleanalytics: track html visitors statistics
-- googlechart: embed charts by using `Google Chart`_
-- googlemaps: embed maps by using `Google Maps`_
-- httpdomain: a domain for documenting RESTful HTTP APIs.
-- hyphenator: client-side hyphenation of HTML using hyphenator_
-- lilypond: an extension inserting music scripts from Lilypond_ in PNG format.
+- aafig: 使用 aafigure_ 把嵌入式的ASCII艺术渲染为一个好图.
+- actdiag: 使用 actdiag_ 嵌入活动图
+- adadomain: 支持Ada扩展 (需要Sphinx 1.0)
+- ansi: 解析文档中ANSI颜色序列.
+- autorun: 在runblock指令中执行代码.
+- blockdiag: 使用 blockdiag_ 嵌入框图
+- cheeseshop: 很容易地连接到PyPI包
+- clearquest: 从 ClearQuest_ 查询创建表。
+- coffeedomain: （自动）记录CoffeeScript的源代码的域。
+- context: ConTeXt创建器.
+- doxylink: 连接到 Doxygen-generated HTML 文档
+- email: 混淆的电子邮件地址
+- erlangdomain: 支持Erlang的扩展 (需要Sphinx 1.0)
+- exceltable: 在文档中使用 exceltable_ 嵌入Excel电子表格
+- feed: 建立联合供稿和来自你网站内容的基于时间的概述的扩展
+- gnuplot: 使用 gnuplot_ 语言产生的图像。
+- googleanalytics: 跟踪HTML访客统计
+- googlechart: 通过使用 `Google Chart`_ 嵌入图表
+- googlemaps: 通过使用 `Google Maps`_ 嵌入地图
+- httpdomain: 记录的RESTful HTTP的API域。
+- hyphenator: 使用 hyphenator_ 的HTML的客户端连字符
+- lilypond: 在PNG格式里插入 Lilypond_ 的音乐脚本的扩展.
 - mscgen: embed mscgen-formatted MSC (Message Sequence Chart)s.
-- nicoviceo: embed videos from nicovideo
-- nwdiag: embed network diagrams by using nwdiag_
-- omegat: support tools to collaborate with OmegaT_ (Sphinx 1.1 needed)
-- osaka: convert standard Japanese doc to Osaka dialect (it is joke extension)
-- paverutils: an alternate integration of Sphinx with Paver_.
-- phpdomain: an extension for PHP support
-- plantuml: embed UML diagram by using PlantUML_
-- rawfiles: copy raw files, like a CNAME.
-- requirements: declare requirements wherever you need (e.g. in test
-  docstrings), mark statuses and collect them in a single list
-- rubydomain: an extension for Ruby support (Sphinx 1.0 needed)
-- sadisplay: display SqlAlchemy model sadisplay_
-- sdedit: an extension inserting sequence diagram by using Quick Sequence.
-  Diagram Editor (sdedit_)
-- seqdiag: embed sequence diagrams by using seqdiag_
-- slide: embed presentation slides on slideshare_ and other sites.
-- swf: embed flash files
-- sword: an extension inserting Bible verses from Sword_.
-- tikz: draw pictures with the `TikZ/PGF LaTeX package`_.
-- traclinks: create TracLinks_ to a Trac_ instance from within Sphinx
-- whooshindex: whoosh indexer extension
-- youtube: embed videos from YouTube_
-- zopeext: provide an ``autointerface`` directive for using `Zope interfaces`_.
+- nicoviceo: 从nicovideo嵌入视频
+- nwdiag: 使用 nwdiag_ 内嵌网络图表
+- omegat: 和 OmegaT_ 合作支持工具 (需要Sphinx 1.1)
+- osaka: 转换标准的日本DOC为大阪方言 (它是笑话扩展)
+- paverutils: Sphinx 和 Paver_的备用集成.
+- phpdomain: 支持PHP的扩展
+- plantuml: 使用 PlantUML_ 嵌入UML图表
+- rawfiles: 复制原始文件，就像一个CNAME。
+- requirements: 在你需要的地方声明需求（例如，在测试文档字符串），标记状态并收集他们到一个列表中
+- rubydomain: 支持Ruby的扩展 (需要Sphinx 1.0)
+- sadisplay: 显示SQLAlchemy的模型 sadisplay_
+- sdedit: 使用快速序列插入序列图的扩展。图编辑器 (sdedit_)
+- seqdiag: 使用 seqdiag_ 嵌入序列图
+- slide: 嵌入 slideshare_ 和 其他网站 的演示幻灯片。
+- swf: 内嵌flash文件
+- sword: 插入来自 Sword_ 圣经经文的扩展。
+- tikz: 使用 `TikZ/PGF LaTeX package`_ 画画.
+- traclinks: 在Sphinx里创建 TracLinks_ 到 a Trac_ 实例
+- whooshindex: whoosh indexer 扩展
+- youtube: 内嵌来之 YouTube_ 的视频
+- zopeext: 提供一个使用 `Zope interfaces`_ 的 ``autointerface`` 指令。
 
-
-See the :ref:`extension tutorial <exttut>` on getting started with writing your
-own extensions.
-
+在入门指南中查看 :ref:`扩展文档 <exttut>`，和撰写自己的扩展。
 
 .. _aafigure: https://launchpad.net/aafigure
 .. _gnuplot: http://www.gnuplot.info/
