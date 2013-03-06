@@ -3,7 +3,7 @@
 .. _build-config:
 
 配置
-============================
+====
 
 .. module:: conf
    :synopsis: Build configuration file.

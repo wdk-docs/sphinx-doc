@@ -1,5 +1,5 @@
 开发手册
-========================
+========
 
 .. topic:: Abstract
 
@@ -31,7 +31,7 @@ sphinx-dev <sphinx-dev@googlegroups.com>
 
 
 Bug报告和功能反馈
---------------------------------
+-----------------
 
 If you have encountered a problem with Sphinx or have an idea for a new
 feature, please submit it to the `issue tracker`_ on BitBucket or discuss it

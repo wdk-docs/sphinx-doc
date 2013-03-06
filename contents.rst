@@ -1,7 +1,7 @@
 .. _contents:
 
 文档内容
-==============
+========
 
 .. toctree::
    :maxdepth: 2

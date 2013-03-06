@@ -11,10 +11,10 @@ anyone having used Django will already be familiar with it.  It also has
 excellent documentation for those who need to make themselves familiar with it.
 
 
-我是否需要使用Sphinx' 模板处理HTML?
----------------------------------------------------
+我是否需要使用Sphinx的模板处理HTML?
+----------------------------------
 
-No.  You have several other options:
+不.  你有一些其它的选择:
 
 * You can write a :class:`~sphinx.application.TemplateBridge` subclass that
   calls your template engine of choice, and set the :confval:`template_bridge`
@@ -74,8 +74,8 @@ render the block's content in the extended template -- unless you don't want
 that content to show up.
 
 
-用内置模板工作
-----------------------------------
+使用内置模板
+--------------
 
 The builtin **basic** theme supplies the templates that all builtin Sphinx
 themes are based on.  It has the following elements you can override or use:
@@ -172,7 +172,7 @@ is deprecated in favor of separate sidebar templates, which can be included via
 
 
 配置变量
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
 
 Inside templates you can set a couple of variables used by the layout template
 using the ``{% set %}`` tag:
@@ -206,7 +206,7 @@ Overriding works like this::
 
 
 帮助函数
-~~~~~~~~~~~~~~~~
+~~~~~~~~~
 
 Sphinx provides various Jinja functions as helpers in the template.  You can use
 them to generate links or output multiply used elements.
@@ -235,7 +235,7 @@ them to generate links or output multiply used elements.
 
 
 全局变量
-~~~~~~~~~~~~~~~~
+~~~~~~~~
 
 These global variables are available in every template and are safe to use.
 There are more, but most of them are an implementation detail and might change
