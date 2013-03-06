@@ -2,7 +2,7 @@
 
 .. _domains:
 
-Sphinx 域
+域
 ==============
 
 .. versionadded:: 1.0

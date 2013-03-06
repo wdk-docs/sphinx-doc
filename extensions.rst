@@ -1,7 +1,7 @@
 .. _extensions:
 
-Sphinx扩展
-=================
+扩展
+====
 
 .. module:: sphinx.application
    :synopsis: Application class and extensibility interface.
@@ -32,7 +32,7 @@ The configuration file itself can be treated as an extension if it contains a
    ext/builderapi
 
 
-内置Sphinx扩展
+内置扩展
 -------------------------
 
 These extensions are built in and can be activated by respective entries in the
@@ -58,7 +58,7 @@ These extensions are built in and can be activated by respective entries in the
 
 
 第三方扩展
-----------------------
+----------
 
 You can find several extensions contributed by users in the `Sphinx Contrib`_
 repository.  It is open for anyone who wants to maintain an extension
@@ -75,8 +75,8 @@ list (`join here <http://groups.google.com/group/sphinx-dev>`_).
 .. _Sphinx Contrib: https://www.bitbucket.org/birkenfeld/sphinx-contrib
 
 
-如何放置你的扩展?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+如何放置扩展?
+~~~~~~~~~~~~~
 
 Extensions local to a project should be put within the project's directory
 structure.  Set Python's module search path, ``sys.path``, accordingly so that

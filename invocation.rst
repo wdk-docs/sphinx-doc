@@ -1,6 +1,6 @@
 .. _invocation:
 
-使用sphinx-build
+sphinx-build使用
 ==========================
 
 The :program:`sphinx-build` script builds a Sphinx documentation set.  It is

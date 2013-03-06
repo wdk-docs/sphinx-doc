@@ -1,7 +1,7 @@
 .. _builders:
 
-可用建立器
-==================
+构建器
+===========
 
 .. module:: sphinx.builders
    :synopsis: Available built-in builder classes.

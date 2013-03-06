@@ -1,6 +1,6 @@
 :orphan:
 
-安装Sphinx
+安装
 ==================
 
 Sphinx是用Python写的, 你需要安装Python和Sphinx.

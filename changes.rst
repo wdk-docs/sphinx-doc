@@ -3,6 +3,6 @@
 .. _changes:
 
 Sphinx变更
-*****************
+***********
 
 .. include:: CHANGES

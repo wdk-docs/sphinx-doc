@@ -1,7 +1,7 @@
 .. _glossary:
 
 术语
-========
+====
 
 .. glossary::
 
