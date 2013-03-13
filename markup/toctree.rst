@@ -66,7 +66,7 @@ tables of contents.  The ``toctree`` directive is the central element.
    You can also add external links, by giving an HTTP URL instead of a document
    name.
 
-   **Section numbering**
+   **段落编号**
 
    If you want to have section numbers even in HTML output, give the toctree a
    ``numbered`` option.  For example::
@@ -83,7 +83,7 @@ tables of contents.  The ``toctree`` directive is the central element.
    Numbering up to a specific depth is also possible, by giving the depth as a
    numeric argument to ``numbered``.
 
-   **Additional options**
+   **附加选项**
 
    If you want only the titles of documents in the tree to show up, not other
    headings of the same level, you can use the ``titlesonly`` option::
