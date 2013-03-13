@@ -46,7 +46,7 @@ tables of contents.  The ``toctree`` directive is the central element.
      document, the library index.  From this information it generates "next
      chapter", "previous chapter" and "parent chapter" links.
 
-   **Entries**
+   **文章**
 
    Document titles in the :rst:dir:`toctree` will be automatically read from the
    title of the referenced document. If that isn't what you want, you can
@@ -94,7 +94,7 @@ tables of contents.  The ``toctree`` directive is the central element.
          foo
          bar
 
-   You can use "globbing" in toctree directives, by giving the ``glob`` flag
+   You can use "通配" in toctree directives, by giving the ``glob`` flag
    option.  All entries are then matched against the list of available
    documents, and matches are inserted into the list alphabetically.  Example::
 
