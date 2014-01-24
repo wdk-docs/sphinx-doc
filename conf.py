@@ -10,8 +10,7 @@ sys.path.append(os.path.abspath('_exts'))
 
 
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.todo',
-              'sphinx.ext.autosummary', 'sphinx.ext.extlinks','phpdomain',
-              'newsfeed']
+              'sphinx.ext.autosummary', 'sphinx.ext.extlinks','phpdomain']
 
 master_doc = 'contents'
 templates_path = ['_templates']

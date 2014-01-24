@@ -246,6 +246,3 @@ features of autodoc.
 .. |more| image:: more.png
           :align: middle
           :alt: more info
-
-.. feed-entry::
-   :date: 2014-01-24
