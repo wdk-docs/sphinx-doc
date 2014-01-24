@@ -8,8 +8,10 @@ import sys, os
 
 sys.path.append(os.path.abspath('_exts'))
 
+
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.todo',
-              'sphinx.ext.autosummary', 'sphinx.ext.extlinks','phpdomain']
+              'sphinx.ext.autosummary', 'sphinx.ext.extlinks','phpdomain',
+              'newsfeed']
 
 master_doc = 'contents'
 templates_path = ['_templates']
@@ -118,3 +120,5 @@ def setup(app):
                          names=['param'], can_collapse=True)
     app.add_object_type('event', 'event', 'pair: %s; event', parse_event,
                         doc_field_types=[fdesc])
+
+disqus_shortname = 'sphinxdoc'
