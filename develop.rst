@@ -5,7 +5,8 @@ Sphinx开发
 ==================
 
 Sphinx是一组志愿者维护的。我们珍惜每个贡献！
-=======
+=============================================
+
 开发
 ====
 Sphinx is a maintained by a group of volunteers.  We value every contribution!
