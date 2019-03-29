@@ -1,6 +1,5 @@
 :orphan:
 
-<<<<<<< HEAD
 Sphinx开发
 ==================
 
@@ -10,7 +9,6 @@ Sphinx是一组志愿者维护的。我们珍惜每个贡献！
 开发
 ====
 Sphinx is a maintained by a group of volunteers.  We value every contribution!
->>>>>>> 379cc97... fix small
 
 * 可以在 `Mercurial <http://bitbucket.org/birkenfeld/sphinx/>`_ 仓库中找到代码.
 * 在 `追踪系统 <http://bitbucket.org/birkenfeld/sphinx/issues/>`_ 中提问和功能申请
