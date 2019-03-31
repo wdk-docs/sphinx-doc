@@ -1,6 +1,8 @@
 sphinx-doc
 ==========
 
+> 本版作废，更新到最新版的文档，采用sphinx-intl工具翻译，<https://github.com/wohugb/sphinx-docs>
+
 sphinx 中文文档
 
 第一次使用sphinx + git + readthedocs.org,制作文档，翻译水平有限，欢迎拍砖！
