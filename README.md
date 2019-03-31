@@ -15,7 +15,7 @@ sphinx 中文文档
 [https://sphinx.readthedocs.org](https://sphinx.readthedocs.org/en/latest/).
 
 翻译的在线中文文档
-[http://sphinx-doc.readthedocs.org](https://sphinx-doc.readthedocs.org/en/latest/).
+[http://sphinx-doc.readthedocs.org](https://sphinx-doc.readthedocs.org).
 
 [brantyoung](https://readthedocs.org/profiles/brantyoung/)的翻译版本
 [https://zh-sphinx-doc.readthedocs.org](https://zh-sphinx-doc.readthedocs.org/en/latest/)
